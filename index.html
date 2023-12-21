@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <title>Clavier Pro</title>
+</head>
+<body>
+
+    <header>
+        <h1>Azio Elwood</h1>
+        <p>La meilleure expérience de frappe</p>
+    </header>
+
+    <section id="features">
+        <h2>Fonctionnalités</h2>
+        <div class="carousel">
+            <div class="feature-card">
+                <h3>Touches rétroéclairées</h3>
+                <p>Le Retro Classic est doté de touches mécaniques rondes éclairées au centre, réglées pour être tactiles et « cliquables », rappelant la machine à écrire vintage.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Support réglable</h3>
+                <p>Obtenez une position optimale du poignet en ajustant l’angle d’inclinaison du clavier.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Double Bluetooth et ampli</h3>
+                <p>Connectez simultanément jusqu'à 3 appareils via Bluetooth. Lorsque le mode USB est sélectionné, connectez simplement le câble USB-C inclus à votre appareil et tapez.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Longue durée d'utilisation </h3>
+                <p>Conçu pour durer avec une batterie rechargeable Li-ion haute capacité intégrée de 5 000 mAh avec jusqu'à des mois d'utilisation.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+   
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.carousel').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            prevArrow: '',
+            nextArrow: '',
+        });
+    });
+</script>
+    </script>
+      <section id="cta">
+        <div class="cta-container">
+            <img src="https://www.aziocorp.com/cdn/shop/products/RCBT-SIDE-ELWOOD_21c115cb-fc4c-4001-8641-d8f95c1dc27a.jpg?v=1696017059" alt="Clavier Pro">
+            <div class="cta-details">
+                <h2>Obtenez le vôtre dès aujourd'hui !</h2>
+                <p>Transformez votre expérience de frappe avec le Clavier Pro.</p>
+                <a href="https://www.aziocorp.com/products/retro-classic-bt" class="cta-button">Acheter maintenant</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Azio Elwood. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>

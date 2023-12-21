@@ -1,0 +1,133 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Main font */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F0F0F0;
+    color: #FFF;
+}
+
+header {
+    background-color: #4b330fd5;
+}
+
+/* Additional fonts for modern look */
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.feature-card, #cta, .cta-details {
+    font-family: 'Nunito', sans-serif;
+}
+
+.cta-button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header, section, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color:  #4b330fd5;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin: 20px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background-color:  #4b330fd5;
+}
+
+#features {
+    color: #2a2a2a;
+    background-color: #F0F0F0;
+    text-align: center;
+}
+
+.carousel {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.feature-card {
+    background-color:  #4b330fd5;
+    color: #FFF;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+}
+
+.feature-card h3 {
+    margin-top: 0;
+}
+
+#cta {
+    background-color: #F0F0F0;
+    color: #FFF;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    max-width: 40vh;
+    max-height: 40vh;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1); /* Adjust the scale factor as needed */
+}
+
+.cta-details {
+    color: #2a2a2a;
+    text-align: left;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4b330fd5;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #4b330fed;
+}
+
+ 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    background-color: #F0F0F0;
+}
+
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color:  #4b330fed;
+}
